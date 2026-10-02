@@ -1,6 +1,6 @@
 {
   "name": "uptick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Audit AI workflows using workspace evidence, rank improvements, and propose instruction changes.",
   "author": {
     "name": "Uptick Systems",
@@ -11,13 +11,17 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Uptick Workspace Audit",
-    "shortDescription": "Find the next useful improvement in your AI workflows.",
-    "longDescription": "A read-only workspace audit with evidence, ranked opportunities, proposed instruction diffs, and a seven-day action plan.",
+    "shortDescription": "Improve how you work with AI",
+    "longDescription": "Find practical improvements in how you or your team work with AI. Uptick inspects the workspace evidence you make available, including agent instructions, skills, workflows, documentation, and verification steps.\n\nGet ranked opportunities with supporting evidence and confidence levels, proposed instruction changes, a seven-day action plan, and ways to measure progress.\n\nThe audit is read-only: it does not edit files or send workspace contents to Uptick. It needs access to relevant workspace material through your AI tool. Limited evidence produces a limited audit, and recommendations do not guarantee savings or business results.",
     "developerName": "Uptick Systems",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
       "Audit this workspace. Show evidence and proposed changes without editing files."
-    ]
+    ],
+    "websiteURL": "https://www.uptick.systems/skills/uptick-workspace-audit",
+    "brandColor": "#8B333F",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
   }
 }
