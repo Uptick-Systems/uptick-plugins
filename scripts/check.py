@@ -23,6 +23,7 @@ skill = (plugin / "skills/uptick-workspace-audit/SKILL.md").read_bytes()
 assert hashlib.sha256(skill).hexdigest() == read(plugin / "source.json")["sha256"]
 assert skill.startswith(b"---\nname: uptick-workspace-audit\n")
 listing = codex["interface"]
+assert listing["privacyPolicyURL"] == "https://www.uptick.systems/privacy"
 for key, limit in (("displayName", 30), ("shortDescription", 30), ("longDescription", 4000), ("developerName", 80)):
     assert 0 < len(listing[key]) <= limit, key
 for key in ("logo", "composerIcon"):

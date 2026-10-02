@@ -1,6 +1,6 @@
 {
   "name": "uptick",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Audit AI workflows using workspace evidence, rank improvements, and propose instruction changes.",
   "author": {
     "name": "Uptick Systems",

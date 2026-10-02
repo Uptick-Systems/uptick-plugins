@@ -28,7 +28,7 @@ The audit is read-only. It does not change files or send workspace contents to U
 
 ## Release source
 
-Version 1.0.1 packages the upgraded skill from PR #540 at revision `ae5afd1852dfbc7a601f45b11744e33d730695bd`. The skill is copied unchanged. `plugins/uptick/source.json` records its SHA-256 checksum. This plugin release is independent of the website release.
+Version 1.0.2 packages the upgraded skill from PR #540 at revision `ae5afd1852dfbc7a601f45b11744e33d730695bd`. The skill is copied unchanged. `plugins/uptick/source.json` records its SHA-256 checksum. This plugin release is independent of the website release.
 
 ## Validate
 
@@ -41,7 +41,7 @@ For an update, replace the skill, update its source record, increment the versio
 
 ## OpenAI directory submission
 
-Download `uptick-1.0.1.zip` from the GitHub release, then upload it at https://platform.openai.com/plugins using Uptick's verified developer identity. Use the release asset, not GitHub's automatic source-code ZIP, which contains the marketplace repository.
+Download `uptick-1.0.2.zip` from the GitHub release, then upload it at https://platform.openai.com/plugins using Uptick's verified developer identity. Use the release asset, not GitHub's automatic source-code ZIP, which contains the marketplace repository.
 
 The package contains the listing copy, logo, composer icon, and skill. Resolve the portal's metadata and skill-scan findings, then submit for review. After approval, select Publish plugin. GitHub publication does not submit to the OpenAI directory.
 
