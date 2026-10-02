@@ -1,6 +1,6 @@
 {
   "name": "uptick",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Audit AI workflows using workspace evidence, rank improvements, and propose instruction changes.",
   "author": {
     "name": "Uptick Systems",
@@ -23,6 +23,8 @@
     "brandColor": "#8B333F",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png",
-    "privacyPolicyURL": "https://www.uptick.systems/privacy"
+    "privacyPolicyURL": "https://www.uptick.systems/privacy",
+    "supportURL": "https://www.uptick.systems/support",
+    "termsOfServiceURL": "https://www.uptick.systems/terms"
   }
 }
