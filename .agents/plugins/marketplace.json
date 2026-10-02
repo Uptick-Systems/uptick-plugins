@@ -1,0 +1,20 @@
+{
+  "name": "uptick-systems",
+  "interface": {
+    "displayName": "Uptick Systems"
+  },
+  "plugins": [
+    {
+      "name": "uptick",
+      "source": {
+        "source": "local",
+        "path": "./plugins/uptick"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
