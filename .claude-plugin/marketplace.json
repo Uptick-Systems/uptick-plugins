@@ -8,6 +8,11 @@
       "name": "uptick",
       "source": "./plugins/uptick",
       "description": "Evidence-backed, read-only AI workspace audit."
+    },
+    {
+      "name": "uptick-scope-check",
+      "source": "./plugins/uptick-scope-check",
+      "description": "Compare client requests with agreed scope and draft evidence-backed change orders and client replies."
     }
   ],
   "description": "Evidence-backed audits and improvements for AI workflows."

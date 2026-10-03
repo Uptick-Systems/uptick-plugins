@@ -1,0 +1,12 @@
+{
+  "name": "uptick-scope-check",
+  "version": "1.0.0",
+  "description": "Compare client requests with agreed scope and draft evidence-backed change orders and client replies.",
+  "author": {
+    "name": "Uptick Systems",
+    "url": "https://www.uptick.systems"
+  },
+  "homepage": "https://github.com/Uptick-Systems/uptick-plugins/tree/main/plugins/uptick-scope-check",
+  "repository": "https://github.com/Uptick-Systems/uptick-plugins",
+  "skills": "./skills/"
+}

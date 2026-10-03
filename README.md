@@ -2,6 +2,13 @@
 
 Evidence-backed improvements for the way you work with AI.
 
+## Available plugins
+
+| Plugin | Use it for | Install identifier |
+|---|---|---|
+| Workspace Audit | Assess existing AI workflows and prioritize improvements | `uptick@uptick-systems` |
+| [Scope Check](plugins/uptick-scope-check/README.md) | Compare client requests with agreed scope and draft change orders | `uptick-scope-check@uptick-systems` |
+
 ## Install in Codex
 
 ```sh
@@ -34,6 +41,7 @@ Version 1.0.3 packages the upgraded skill from PR #540 at revision `ae5afd1852df
 
 ```sh
 python3 scripts/check.py
+python3 scripts/test_scope_pricing.py
 claude plugin validate .
 ```
 

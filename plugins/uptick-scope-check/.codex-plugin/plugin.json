@@ -1,0 +1,30 @@
+{
+  "name": "uptick-scope-check",
+  "version": "1.0.0",
+  "description": "Compare client requests with agreed scope and draft evidence-backed change orders and client replies.",
+  "author": {
+    "name": "Uptick Systems",
+    "url": "https://www.uptick.systems"
+  },
+  "homepage": "https://github.com/Uptick-Systems/uptick-plugins/tree/main/plugins/uptick-scope-check",
+  "repository": "https://github.com/Uptick-Systems/uptick-plugins",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Uptick Scope Check",
+    "shortDescription": "Handle client scope changes",
+    "longDescription": "Compare a client request with an agreed statement of work and approved amendments. Identify included work, corrections, additions, and unclear obligations with source citations. Prepare a proposed change order and a respectful client reply.\n\nFor agencies, consultants, and service teams. Pricing uses supplied quantities and rates; a bundled Python helper checks decimal arithmetic when execution is available. It does not estimate missing effort, promise delivery dates, send messages, or approve charges. Operational guidance, not a legal opinion.\n\nNo Uptick account or API key is needed. Provide the relevant documents through your AI tool; the plugin does not send them to Uptick.",
+    "developerName": "Uptick Systems",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Compare this client request with our agreed scope. Draft a change order and reply.",
+      "Is this a defect, an included revision, or extra work? Show the supporting clauses."
+    ],
+    "websiteURL": "https://github.com/Uptick-Systems/uptick-plugins/tree/main/plugins/uptick-scope-check",
+    "privacyPolicyURL": "https://www.uptick.systems/privacy",
+    "supportURL": "https://github.com/Uptick-Systems/uptick-plugins/issues",
+    "brandColor": "#8B333F",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}
